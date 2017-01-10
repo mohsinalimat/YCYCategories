@@ -1,0 +1,16 @@
+PODS:
+  - YCYCategories (0.1.0)
+
+DEPENDENCIES:
+  - YCYCategories (from `../`)
+
+EXTERNAL SOURCES:
+  YCYCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YCYCategories: a28d33e49200addf5b95099736212411964e9547
+
+PODFILE CHECKSUM: b02feec7c7c200ef36e2de2650bc19be9a9515de
+
+COCOAPODS: 1.1.1

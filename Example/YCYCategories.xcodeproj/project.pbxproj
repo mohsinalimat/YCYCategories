@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		351AB38ED317BDB7F2D4D00C /* YCYCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YCYCategories.podspec; path = ../YCYCategories.podspec; sourceTree = "<group>"; };
+		351AB38ED317BDB7F2D4D00C /* YCYCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YCYCategories.podspec; path = ../YCYCategories.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YCYCategories_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCYCategories_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,11 +56,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		689DB4C402708C41160FB5A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		689DB4C402708C41160FB5A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		78D6DC4BFF9809CE79A9E428 /* Pods-YCYCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCYCategories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCYCategories_Tests/Pods-YCYCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		835CBBB934FBC709E7471489 /* Pods_YCYCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCYCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		99274F57FFE9E2286E501FDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		99274F57FFE9E2286E501FDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A02895E47312A0C660B7348A /* Pods-YCYCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCYCategories_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCYCategories_Example/Pods-YCYCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A37D580FED1EEB5B4B924FF8 /* Pods-YCYCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCYCategories_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCYCategories_Example/Pods-YCYCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ACEF177C40D5388E2D8B0057 /* Pods-YCYCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCYCategories_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCYCategories_Tests/Pods-YCYCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chengyou.yang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 86AQ2856TX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 86AQ2856TX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YCYCategories/YCYCategories-Prefix.pch";
 				INFOPLIST_FILE = "YCYCategories/YCYCategories-Info.plist";
@@ -529,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 86AQ2856TX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YCYCategories/YCYCategories-Prefix.pch";
 				INFOPLIST_FILE = "YCYCategories/YCYCategories-Info.plist";
