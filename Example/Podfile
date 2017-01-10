@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCYCategories_Example' do
+  pod 'YCYCategories', :path => '../'
+
+  target 'YCYCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
