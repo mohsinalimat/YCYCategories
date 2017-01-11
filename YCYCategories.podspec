@@ -29,13 +29,13 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '6.0'
-
-  s.source_files = 'YCYCategory','YCYCategory/*.{h}',' YCYCategory/Classes/**/*.{h,m}'
+  s.requires_arc = true
+  s.source_files = 'YCYCategories','YCYCategories/*.{h}',' YCYCategories/**/*.{h,m}'
 
   # s.resource_bundles = {
   #   'YCYCategories' => ['YCYCategories/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'Foundation'
+  s.frameworks = 'UIKit', 'Foundation'
 end
