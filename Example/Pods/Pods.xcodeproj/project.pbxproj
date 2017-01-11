@@ -398,7 +398,6 @@
 		9AFE0C11F949E7982C8CF8FE7C546B0A /* YCYCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA0936DC9D8054B68F7E8357258D099 /* YCYCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B563D1182D037CA6B3618B8DB6E06B01 /* Pods-YCYCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F34E046490ADA6EE8D4C4847548F121E /* Pods-YCYCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7EA57E6B5AA88A232A6FD6AF6D39DCC /* Pods-YCYCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9947B77D8A45F45BCFF8BCCB81CF403F /* Pods-YCYCategories_Tests-dummy.m */; };
-		BF9201861A6CAF6F80EE8E95AC976226 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 33642635EB30213105DC9172D3AF3D9A /* ReplaceMe.m */; };
 		D049F95F760F0869A06309043B4F5C30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E60B8AE9907710CF6453139662E40419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F09C0FEB8D655899114AB8CCB9F4CA70 /* YCYCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B745A3C5F8A1C1EA5F8010A5458788F7 /* YCYCategories-dummy.m */; };
@@ -419,7 +418,6 @@
 		0CA0936DC9D8054B68F7E8357258D099 /* YCYCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCYCategories-umbrella.h"; sourceTree = "<group>"; };
 		20EBFFDE1122E6A865FAEBF992173ECB /* Pods-YCYCategories_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCYCategories_Example-frameworks.sh"; sourceTree = "<group>"; };
 		254CA7D2C56D03AAAC942251CFCEFF12 /* Pods-YCYCategories_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCYCategories_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		33642635EB30213105DC9172D3AF3D9A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		33CA2467E478E1DD9C7E358BFEDEC638 /* Pods-YCYCategories_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YCYCategories_Tests.modulemap"; sourceTree = "<group>"; };
 		3734C2EF664EA932C25CD87DBA610E32 /* YCYCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCYCategories-prefix.pch"; sourceTree = "<group>"; };
 		38C87DB01E24EF8A00CD6D9B /* NSArray+YCYSafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YCYSafeAccess.h"; sourceTree = "<group>"; };
@@ -1623,14 +1621,6 @@
 			path = "Target Support Files/Pods-YCYCategories_Example";
 			sourceTree = "<group>";
 		};
-		4F8A77C65D72C50D2FDB3EE6996E12F7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				33642635EB30213105DC9172D3AF3D9A /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1676,7 +1666,6 @@
 				38C880DA1E24EFA100CD6D9B /* YCYUIKitHeader.h */,
 				38C87EE61E24EF9500CD6D9B /* UIKit */,
 				38C87DAE1E24EF8A00CD6D9B /* Foundation */,
-				4F8A77C65D72C50D2FDB3EE6996E12F7 /* Classes */,
 			);
 			path = YCYCategories;
 			sourceTree = "<group>";
@@ -2249,7 +2238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9201861A6CAF6F80EE8E95AC976226 /* ReplaceMe.m in Sources */,
 				F09C0FEB8D655899114AB8CCB9F4CA70 /* YCYCategories-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
