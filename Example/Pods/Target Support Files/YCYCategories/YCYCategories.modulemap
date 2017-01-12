@@ -1,6 +1,0 @@
-framework module YCYCategories {
-  umbrella header "YCYCategories-umbrella.h"
-
-  export *
-  module * { export * }
-}

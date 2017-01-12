@@ -9,6 +9,7 @@
 #ifndef YCYUIKitHeader_h
 #define YCYUIKitHeader_h
 
+#import "YCYUITextView.h"
 #import "YCYUIWebView.h"
 #import "YCYUIViewController.h"
 #import "YCYUIView.h"

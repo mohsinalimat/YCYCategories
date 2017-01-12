@@ -22,5 +22,6 @@
 #import "UIView+YCYVisuals.h"
 #import "UIView+YCYDraggable.h"
 #import "UIView+YCYRecursion.h"
+#import "UIView+YCYTable.h"
 
 #endif /* YCYUIView_h */

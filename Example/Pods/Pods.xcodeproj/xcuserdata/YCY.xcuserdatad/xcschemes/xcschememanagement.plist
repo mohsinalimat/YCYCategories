@@ -14,11 +14,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YCYCategories.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -27,12 +22,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7FA86E98BE4B978A86E06568B7319094</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CB702E45EACE95DBD4BA1E2CD2EC1530</key>
+		<key>761533646A88BC53DF41A84DC260EA67</key>
 		<dict>
 			<key>primary</key>
 			<true/>

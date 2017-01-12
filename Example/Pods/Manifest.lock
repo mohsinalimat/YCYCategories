@@ -1,5 +1,5 @@
 PODS:
-  - YCYCategories (0.1.0)
+  - YCYCategories (0.0.1)
 
 DEPENDENCIES:
   - YCYCategories (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YCYCategories: a28d33e49200addf5b95099736212411964e9547
+  YCYCategories: 15c4d9cdd149a5eaf135e9546d005305922f3491
 
 PODFILE CHECKSUM: b02feec7c7c200ef36e2de2650bc19be9a9515de
 
