@@ -11,6 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+
 ## Installation
 
 YCYCategories is available through [CocoaPods](http://cocoapods.org). To install
@@ -19,6 +20,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'YCYCategories'
 ```
+## Usage
+导入所有文件：
+在pch或者其他头文件里面直接#import <YCYCategory.h>即可
+如果只需要单个category根据目录导入头文件即可
 
 ## Author
 
